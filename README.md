@@ -55,18 +55,23 @@ Stu_age int not null
 Stu_phnu int not null
 primary key(Stu_ID), );
 
-Create table College(
-Coll_ID int not null,
-coll_name varchar(250)not null,
-coll_grade varchar(10) not null,
-coll_location varchar(50) not null,
-primary key(coll_ID));
+Create table Attendance(
+Auth_ID int not null,
+Auth_pwd varchar(250)not null,
+Attendance_percent int not null );
 
-Create table College(
-Coll_ID int not null,
-coll_name varchar(250)not null,
-coll_grade varchar(10) not null,
-coll_location varchar(50) not null,
+Create table Faculty(
+Fac_ID int not null,
+Fac_name varchar(250)not null,
+Fac_Phnu int not null,
+Fac_email varchar(50) not null,
+Fac_address varchar(250) not null,
+Fac_salary int not null,
+Fac_YOE int not null,
+Fac_ Desg varchar(100) not null,
+Fac_joining_Date Date
+
+
 primary key(coll_ID));
 
 Create table College(
