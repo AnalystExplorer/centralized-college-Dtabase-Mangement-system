@@ -187,11 +187,11 @@ primary key(coll_ID), Foreign key(Dept_ID), Foreign key(coll_ID));
  **Library**
 | Lib_ID      | Lib_name     | Book_ID | Book_name | Author_name | Issuing_Date |Return_Date | Rack_number|
 | -------------------- | ------------------- | --------------- | ------------------- | -------------------- | ----------| ---------| ------------|
-| 562110  | Swati  | 85623 |Rich dad poor dad| sawti | 29-05-2022 |01-06-2022 | 3 | 
-| 652120  | Anshu | 95462 |Business intelligence | Anshu | 02-08-2022 |29-08-2022 | 2 | 
-| 872130 | Tejasvi | 75423 |case studys | Tejasvi | 01-09-2022 |22-09-2022 | 1 | 
-| 782140 | Aakriti | 97561 | R laguage  | Aakriti | 02-10-2022 |20-10-2022 | 2 | 
-| 952150 | Riya| 95687 |Big Data Management |  Riya | 03-11-2022 |25-11-2022 | 7 |
+| 562110  | central  | 85623 |Rich dad poor dad| sawti | 29-05-2022 |01-06-2022 | 3 | 
+| 652120  | MBA | 95462 |Business intelligence | Anshu | 02-08-2022 |29-08-2022 | 2 | 
+| 872130 | central| 75423 |case studys | Tejasvi | 01-09-2022 |22-09-2022 | 1 | 
+| 782140 | central | 97561 | R laguage  | Aakriti | 02-10-2022 |20-10-2022 | 2 | 
+| 952150 | MBA| 95687 |Big Data Management |  Riya | 03-11-2022 |25-11-2022 | 7 |
 
 **Worker**
 | worker_ID      | worker_name     | worker_email | Worker_address | Worker_Phnu | Worker_salary | Worker_DOB | 
