@@ -176,9 +176,9 @@ primary key(coll_ID), Foreign key(Dept_ID), Foreign key(coll_ID));
 | 1040 | user | 70% |
 | 1050 | user| 92% |
 
- **Faculty(Fac_ID, Fac_name, Fac_Phnu, Fac_email, Fac_add,Fac_salary,Fac_YOE, Fac_ Desg )**
- | Stu_ID       | Stu_name     | Stu_email | Stu_address | Stu_DOB | Stu_age |Stu_phnu | 
-| -------------------- | ------------------- | --------------- | ------------------- | -------------------- | ----------| ---------|
+ **Faculty(, , , , ,,,  )**
+ | Fac_ID      | Fac_name     | Fac_Phnu | Fac_email | Fac_add | Fac_salary |Fac_YOE | Fac_ Desg  |
+| -------------------- | ------------------- | --------------- | ------------------- | -------------------- | ----------| ---------| ------------|
 | 2110  | Swati  | swati@gmail.com | Bihar | 29-05-1945 | 23 | 9353787654 |
 | 2120  | Anshu | Anshu@gmail.com | Bihar | 02-08-1946 | 22 | 9353787645 |
 | 2130 | Tejasvi | TJ@gmail.com | Bangalore | 01-09-1948 | 21 | 9353786754 |
