@@ -25,7 +25,7 @@ primary key(coll_ID));
 Create table Department(
 Dept_ID int not null,
 Dept_name varchar(250)not null,
-primary key(Dept_ID));
+primary key(Dept_ID),foreign key(coll_ID));
 
 Create table Course(
 Course_ID int not null,
@@ -111,7 +111,18 @@ Item_name varchar(150) not null,
 Item_Price int not null,
 primary key(coll_ID), Foreign key(Dept_ID), Foreign key(coll_ID));
 
-######## **Table
+##### **Table **
+College(Coll_ID, Coll_name, Coll_grade, Coll_location)
+
+|coll_ID| Coll_name       | coll_grade | coll_location |
+| 101   |Christ University| B          | Bangalore     |
+| 102   |VTU              | B          | Bangalore     |
+| 103   |SJCIT            | B          | Bangalore     |
+| 104   |MIT              | A          | Pune          |
+| 105   |MITID            | A          |Pune           |
+
+
+
 
 
 
