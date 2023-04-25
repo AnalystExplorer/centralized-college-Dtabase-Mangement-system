@@ -12,6 +12,17 @@ A centralized college database management system is a software application desig
 9. Worker(worker_ID, worker_name, worker_email, Worker_address, Worker_Phnu, Worker_salary,Worker_DOB)
 10. Cntene(Cant_ID, Cant_name, Menu_name(Veg_menu,Nonveg_menu),)
 11. Campus Store(Store_ID, Store_name,Item_list,Item_name, Item_Price)
+
+Creating Tables:
+
+Create table College(
+Coll_ID int not null,
+coll_name varchar(250)not null,
+coll_grade varchar(10) not null,
+coll_location varchar(50) not null,
+primary key(coll_ID));
+
+
  
 
 
