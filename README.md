@@ -147,16 +147,8 @@ primary key(coll_ID), Foreign key(Dept_ID), Foreign key(coll_ID));
 
 **Assignment_table**
 
-| Assignment_ID        | Assignment_name     | Assignment_desc | Assignment_deadline |
-| ------------- | ------------- | ---------- | ------------- |
-| 11  | IT  | computer science engineering | 5 |
-| 12  | Finace                | Finance analytics | 5 |
-| 13 | BA  | Business analytics | 5 |
-| 14 | civil | civil engineering  | 5 |
-| 15 | product design | design specification | 5 |
-
-| Assignment_ID       | Assignment_name     | Assignment_desc | Assignment_deadline | no_of_assignment |
-| ------------- | ------------- | ---------- | ------------- | -------------------- | ---------------- |
+| Assignment_ID        | Assignment_name     | Assignment_desc | Assignment_deadline | no_of_assignment |
+| ------------- | ------------- | ---------- | ------------- | -------------------- | ----------------- |
 | 110  | Python  | Basics to pro | 7 days | 5 |
 | 120  | Sql | Basics to pro | 7 days | 5|
 | 130 | Case study | critical thinking | 10 days | 1 |
@@ -165,8 +157,12 @@ primary key(coll_ID), Foreign key(Dept_ID), Foreign key(coll_ID));
 
 
 
-5. Student(Stu_ID,Stu_name, Stu_email, Stu_address, Stu_DOB, Stu_age, Stu_phnu)
-6. Attendance(Auth_ID, Auth_pwd, Attendance_percent)
+
+
+
+
+
+
 
 
 
