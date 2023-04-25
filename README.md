@@ -214,11 +214,10 @@ primary key(coll_ID), Foreign key(Dept_ID), Foreign key(coll_ID));
 **Campus Store**
 | Store_ID      | Store_name     | Item_list | Item_name | Item_Price | 
 | -------------------- | ------------------- | --------------- | ------------------- | ---------------|
-| 2110  | Swati  | swati@gmail.com | Bihar | 29-05-1945 | 23 | 9353787654 |
-| 2120  | Anshu | Anshu@gmail.com | Bihar | 02-08-1946 | 22 | 9353787645 |
-| 2130 | Tejasvi | TJ@gmail.com | Bangalore | 01-09-1948 | 21 | 9353786754 |
-| 2140 | Aakriti | Aakriti@gmail.com  | Bhopal | 02-10-1949 | 22 | 9335787654 |
-| 2150 | Riya| Riya@gmail.com | Bihar | 03-11-1950 | 21 | 9343787654 |
+| 1234 | cen_trinity  |  classmet notebook | classmet notebook |75 |
+| 5678  | Mba_Trinity | Anshu@gmail.com | Bihar | 02-08-1946 |
+| 9012 | cafe coffe day | TJ@gmail.com | Bangalore | 01-09-1948 |
+
 
 
 
