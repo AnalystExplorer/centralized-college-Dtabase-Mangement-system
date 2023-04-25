@@ -128,9 +128,19 @@ primary key(coll_ID), Foreign key(Dept_ID), Foreign key(coll_ID));
 | ------------- | ------------- |
 | 1010  | Engineering  | 
 | 1020  | BBA               | 
-| 103 | MBA  | 
-| 104 | Diploma | 
-| 105 | Design | 
+| 1030 | MBA  | 
+| 1040 | Diploma | 
+| 1050 | Design | 
+
+** Course(Course_ID,Course_name, Course_desc, Course_credit) **
+
+| Course_ID       | Course_name     | Course_desc | Course_credit |
+| ------------- | ------------- | ---------- | ------------- |
+| 11  | IT  | computer science engineering | 5 |
+| 12  | Finace                | Finance analytics | 5 |
+| 13 | BA  | Business analytics | 5 |
+| 14 | civil | civil engineering  | 5 |
+| 15 | product design | design specification | 5 |
 
 
 
