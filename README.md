@@ -176,25 +176,24 @@ primary key(coll_ID), Foreign key(Dept_ID), Foreign key(coll_ID));
 | 1040 | user | 70% |
 | 1050 | user| 92% |
 
- **Faculty(, , , , ,,,  )**
+ **Faculty**
  | Fac_ID      | Fac_name     | Fac_Phnu | Fac_email | Fac_add | Fac_salary |Fac_YOE | Fac_ Desg  |
 | -------------------- | ------------------- | --------------- | ------------------- | -------------------- | ----------| ---------| ------------|
-| 2110  | Swati  | swati@gmail.com | Bihar | 29-05-1945 | 23 | 9353787654 |
-| 2120  | Anshu | Anshu@gmail.com | Bihar | 02-08-1946 | 22 | 9353787645 |
-| 2130 | Tejasvi | TJ@gmail.com | Bangalore | 01-09-1948 | 21 | 9353786754 |
-| 2140 | Aakriti | Aakriti@gmail.com  | Bhopal | 02-10-1949 | 22 | 9335787654 |
-| 2150 | Riya| Riya@gmail.com | Bihar | 03-11-1950 | 21 | 9343787654 |
+| 21413 | Anshul saxena | 93537876855 | Anshulsaxena@gmail.com | MP | 10,00,000 |02-08-2006 | HOS |
+| 21414| Danesh Hussain | 6523456892| DaneshHussain@gmail.com | Bangalore | 11,00,000 | 01-09-2007 | HOS  |
+| 21415 | Jerin Jose | 2354896524 | JerinJose@gmail.com  | Bangalore | 12,00,000 | 02-10-2012 | facluty |
+| 21416| Beky Thomas | 9845762143| BekyThomas@gmail.com | pune | 15,00,000 | 03-11-2018 | HOD  |
 
- **Library(, , , , , , , )**
+ **Library**
 | Lib_ID      | Lib_name     | Book_ID | Book_name | Author_name | Issuing_Date |Return_Date | Rack_number|
 | -------------------- | ------------------- | --------------- | ------------------- | -------------------- | ----------| ---------| ------------|
-| 2110  | Swati  | swati@gmail.com | Bihar | 29-05-1945 | 23 | 9353787654 |
-| 2120  | Anshu | Anshu@gmail.com | Bihar | 02-08-1946 | 22 | 9353787645 |
-| 2130 | Tejasvi | TJ@gmail.com | Bangalore | 01-09-1948 | 21 | 9353786754 |
-| 2140 | Aakriti | Aakriti@gmail.com  | Bhopal | 02-10-1949 | 22 | 9335787654 |
-| 2150 | Riya| Riya@gmail.com | Bihar | 03-11-1950 | 21 | 9343787654 |
+| 562110  | Swati  | 85623 |Rich dad poor dad| sawti | 29-05-2022 |01-06-2022 | 3 | 
+| 652120  | Anshu | 95462 |Business intelligence | Anshu | 02-08-2022 |29-08-2022 | 2 | 
+| 872130 | Tejasvi | 75423 |case studys | Tejasvi | 01-09-2022 |22-09-2022 | 1 | 
+| 782140 | Aakriti | 97561 | R laguage  | Aakriti | 02-10-2022 |20-10-2022 | 2 | 
+| 952150 | Riya| 95687 |Big Data Management |  Riya | 03-11-2022 |25-11-2022 | 7 |
 
-**Worker(, , , , , ,)**
+**Worker**
 | worker_ID      | worker_name     | worker_email | Worker_address | Worker_Phnu | Worker_salary | Worker_DOB | 
 | -------------------- | ------------------- | --------------- | ------------------- | -------------------- | ----------| ---------|
 | 2110  | Swati  | swati@gmail.com | Bihar | 29-05-1945 | 23 | 9353787654 |
@@ -203,7 +202,7 @@ primary key(coll_ID), Foreign key(Dept_ID), Foreign key(coll_ID));
 | 2140 | Aakriti | Aakriti@gmail.com  | Bhopal | 02-10-1949 | 22 | 9335787654 |
 | 2150 | Riya| Riya@gmail.com | Bihar | 03-11-1950 | 21 | 9343787654 |
 
-**Cantene(, , ,)**
+**Cantene**
 | Cant_ID     | Cant_name    | Menu_name(Veg_menu,Nonveg_menu) | 
 | -------------------- | ------------------- | ----------------------------- |
 | 2110  | Swati  | swati@gmail.com | Bihar | 29-05-1945 | 23 | 9353787654 |
@@ -212,9 +211,9 @@ primary key(coll_ID), Foreign key(Dept_ID), Foreign key(coll_ID));
 | 2140 | Aakriti | Aakriti@gmail.com  | Bhopal | 02-10-1949 | 22 | 9335787654 |
 | 2150 | Riya| Riya@gmail.com | Bihar | 03-11-1950 | 21 | 9343787654 |
 
-**Campus Store(, ,,, )**
+**Campus Store**
 | Store_ID      | Store_name     | Item_list | Item_name | Item_Price | 
-| -------------------- | ------------------- | --------------- | ------------------- |
+| -------------------- | ------------------- | --------------- | ------------------- | ---------------|
 | 2110  | Swati  | swati@gmail.com | Bihar | 29-05-1945 | 23 | 9353787654 |
 | 2120  | Anshu | Anshu@gmail.com | Bihar | 02-08-1946 | 22 | 9353787645 |
 | 2130 | Tejasvi | TJ@gmail.com | Bangalore | 01-09-1948 | 21 | 9353786754 |
