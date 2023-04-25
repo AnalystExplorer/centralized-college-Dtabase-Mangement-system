@@ -114,13 +114,13 @@ primary key(coll_ID), Foreign key(Dept_ID), Foreign key(coll_ID));
 ##### **Table **
 College(Coll_ID, Coll_name, Coll_grade, Coll_location)
 
-| First Header  | Second Header |
+| coll_ID       | Coll_name     |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| 101  | Christ university  |
+| 102  | Content Cell  |
 
-|coll_ID| Coll_name       | coll_grade | coll_location |
-|.......|.................|............|...............|
+| coll_ID | Coll_name       | coll_grade | coll_location |
+| ------  |.................|............|...............|
 | 101   |Christ University| B          | Bangalore     |
 | 102   |VTU              | B          | Bangalore     |
 | 103   |SJCIT            | B          | Bangalore     |
