@@ -1,7 +1,7 @@
 # centralized college Database management System
 A centralized college database management system is a software application designed to manage and store information about students, faculty, courses, and other resources in a college or university. The system aims to streamline administrative tasks, improve communication between departments, and provide accurate and timely information to stakeholders.The system includes various modules such as student admission, course registration, attendance management, grading, fee collection, and reporting. It enables administrators to easily access and manipulate data related to academic performance, student demographics, financial transactions, and more.The system is typically designed with a user-friendly interface that allows authorized users to access the database securely and efficiently. The system can also be customized to meet the specific needs of the college or university, such as incorporating different data fields or integrating with other software applications.Overall, a centralized college database management system can help colleges and universities to improve their administrative efficiency, reduce errors, and enhance communication and collaboration among faculty, staff, and students.
 
-#Entities:
+## Entities and Attributes:
 1. College(Coll_ID, Coll_name, Coll_grade, Coll_location)
 2. Department(Dept_ID, Dept_name)
 3. Course(Course_ID,Course_name, Course_desc, Course_credit)
@@ -16,7 +16,7 @@ A centralized college database management system is a software application desig
 
 ![ER unknown-Page-3 drawio (2)](https://user-images.githubusercontent.com/125997064/234306996-8a87abb3-22de-411f-b5a5-e0b15cce8840.png)
 
-Creating Tables:
+## Creating Tables:
 
 Create table College(
 Coll_ID int not null,
