@@ -148,7 +148,7 @@ primary key(coll_ID), Foreign key(Dept_ID), Foreign key(coll_ID));
 **Assignment_table**
 
 | Assignment_ID        | Assignment_name     | Assignment_desc | Assignment_deadline | no_of_assignment |
-| -------------------- | ------------------- | --------------- | ------------------- | --------------------- | 
+| -------------------- | ------------------- | --------------- | ------------------- | -------------------- | 
 | 110  | Python  | Basics to pro | 7 days | 5 |
 | 120  | Sql | Basics to pro | 7 days | 5|
 | 130 | Case study | critical thinking | 10 days | 1 |
