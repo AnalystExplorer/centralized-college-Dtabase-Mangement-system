@@ -10,7 +10,7 @@ A centralized college database management system is a software application desig
 7. Faculty(Fac_ID, Fac_name, Fac_Phnu, Fac_email, Fac_add,Fac_salary,Fac_YOE, Fac_ Desg )
 8. Library(Lib_ID, Lib_name, Book_ID, Book_name, Author_name, Issuing_Date, Return_Date, Rack_number)
 9. Worker(worker_ID, worker_name, worker_email, Worker_address, Worker_Phnu, Worker_salary,Worker_DOB)
-10. Cntene(Cant_ID, Cant_name, Menu_name(Veg_menu,Nonveg_menu),)
+10. Cantene(Cant_ID, Cant_name, Menu_name(Veg_menu,Nonveg_menu),)
 11. Campus Store(Store_ID, Store_name,Item_list,Item_name, Item_Price)
 
 Creating Tables:
@@ -69,17 +69,20 @@ Fac_address varchar(250) not null,
 Fac_salary int not null,
 Fac_YOE int not null,
 Fac_ Desg varchar(100) not null,
-Fac_joining_Date Date
-
-
+Fac_joining_Date Date,
 primary key(coll_ID));
 
-Create table College(
-Coll_ID int not null,
-coll_name varchar(250)not null,
-coll_grade varchar(10) not null,
-coll_location varchar(50) not null,
-primary key(coll_ID));
+Create table Library( 
+Lib_ID int not null,
+Lib_name varchar(50)not null,
+Book_ID int not null,
+Book_name varchar(10) not null,
+Author_name varchar(50) not null,
+Issuing_Date Date,
+Return_Date Date,
+Rack_number int not null,
+primary key(Lib_ID),
+Foreign key(coll_ID),foreign key(Dept_ID), Foreign key(Stud_ID));
 
 Create table College(
 Coll_ID int not null,
