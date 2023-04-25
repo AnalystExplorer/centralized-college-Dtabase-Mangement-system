@@ -196,11 +196,11 @@ primary key(coll_ID), Foreign key(Dept_ID), Foreign key(coll_ID));
 **Worker**
 | worker_ID      | worker_name     | worker_email | Worker_address | Worker_Phnu | Worker_salary | Worker_DOB | 
 | -------------------- | ------------------- | --------------- | ------------------- | -------------------- | ----------| ---------|
-| 211550  | Swati  | swati@gmail.com | Bihar | 29-05-1945 | 23 | 9353787654 |
-| 233120  | Anshu | Anshu@gmail.com | Bihar | 02-08-1946 | 22 | 9353787645 |
-| 214530 | Tejasvi | TJ@gmail.com | Bangalore | 01-09-1948 | 21 | 9353786754 |
-| 218840 | Aakriti | Aakriti@gmail.com  | Bhopal | 02-10-1949 | 22 | 9335787654 |
-| 215990 | Riya| Riya@gmail.com | Bihar | 03-11-1950 | 21 | 9343787654 |
+| 211550  | Rahul  | swati@gmail.com | Bihar | 29-05-1945 | 23 | 9353787654 |
+| 233120  | manish | Anshu@gmail.com | Bihar | 02-08-1946 | 22 | 9353787645 |
+| 214530 | sonu | TJ@gmail.com | Bangalore | 01-09-1948 | 21 | 9353786754 |
+| 218840 | Rashmi | Aakriti@gmail.com  | Bhopal | 02-10-1949 | 22 | 9335787654 |
+| 215990 | rekha| Riya@gmail.com | Bihar | 03-11-1950 | 21 | 9343787654 |
 
 **Cantene**
 | Cant_ID     | Cant_name    | Menu_name(Veg_menu,Nonveg_menu) | 
