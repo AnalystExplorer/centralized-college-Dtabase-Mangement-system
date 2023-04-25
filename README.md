@@ -32,7 +32,71 @@ Course_ID int not null,
 Course_name varchar(250)not null,
 Course_desc varchar(250)not null,
 Course_credit varchar(250)not null,
-primary key(Dept_ID), foreign key(Dept_ID));
+primary key(Dept_ID), 
+foreign key(Dept_ID));
+
+Create table Assignment(
+Assignment_ID int not null,
+Assignment_name varchar(250)not null,
+Assignment_desc varchar(10) not null,
+Assignment_deadline varchar(50) not null,
+no_of_assignment int not null,
+primary key(Assignment_ID), 
+foreign key(Course_ID), 
+foreign key(Course_name));
+
+Create table Student(
+Stu_ID int not null,
+Stu_name varchar(250) not null,
+Stu_email varchar(10) not null,
+Stu_address varchar(50) not null,
+Stu_DOB Date,
+Stu_age int not null
+Stu_phnu int not null
+primary key(Stu_ID), );
+
+Create table College(
+Coll_ID int not null,
+coll_name varchar(250)not null,
+coll_grade varchar(10) not null,
+coll_location varchar(50) not null,
+primary key(coll_ID));
+
+Create table College(
+Coll_ID int not null,
+coll_name varchar(250)not null,
+coll_grade varchar(10) not null,
+coll_location varchar(50) not null,
+primary key(coll_ID));
+
+Create table College(
+Coll_ID int not null,
+coll_name varchar(250)not null,
+coll_grade varchar(10) not null,
+coll_location varchar(50) not null,
+primary key(coll_ID));
+
+Create table College(
+Coll_ID int not null,
+coll_name varchar(250)not null,
+coll_grade varchar(10) not null,
+coll_location varchar(50) not null,
+primary key(coll_ID));
+
+Create table College(
+Coll_ID int not null,
+coll_name varchar(250)not null,
+coll_grade varchar(10) not null,
+coll_location varchar(50) not null,
+primary key(coll_ID));
+
+Create table College(
+Coll_ID int not null,
+coll_name varchar(250)not null,
+coll_grade varchar(10) not null,
+coll_location varchar(50) not null,
+primary key(coll_ID));
+
 
 
 
