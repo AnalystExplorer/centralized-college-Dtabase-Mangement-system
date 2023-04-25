@@ -1,8 +1,6 @@
 # centralized college Database management System
 A centralized college database management system is a software application designed to manage and store information about students, faculty, courses, and other resources in a college or university. The system aims to streamline administrative tasks, improve communication between departments, and provide accurate and timely information to stakeholders.The system includes various modules such as student admission, course registration, attendance management, grading, fee collection, and reporting. It enables administrators to easily access and manipulate data related to academic performance, student demographics, financial transactions, and more.The system is typically designed with a user-friendly interface that allows authorized users to access the database securely and efficiently. The system can also be customized to meet the specific needs of the college or university, such as incorporating different data fields or integrating with other software applications.Overall, a centralized college database management system can help colleges and universities to improve their administrative efficiency, reduce errors, and enhance communication and collaboration among faculty, staff, and students.
 
-![ER unknown-Page-3 drawio (2)](https://user-images.githubusercontent.com/125997064/234306996-8a87abb3-22de-411f-b5a5-e0b15cce8840.png)
-
 #Entities:
 1. College(Coll_ID, Coll_name, Coll_grade, Coll_location)
 2. Department(Dept_ID, Dept_name)
@@ -15,6 +13,8 @@ A centralized college database management system is a software application desig
 9. Worker(worker_ID, worker_name, worker_email, Worker_address, Worker_Phnu, Worker_salary,Worker_DOB)
 10. Cantene(Cant_ID, Cant_name, Menu_name(Veg_menu,Nonveg_menu),)
 11. Campus Store(Store_ID, Store_name,Item_list,Item_name, Item_Price)
+
+![ER unknown-Page-3 drawio (2)](https://user-images.githubusercontent.com/125997064/234306996-8a87abb3-22de-411f-b5a5-e0b15cce8840.png)
 
 Creating Tables:
 
@@ -144,6 +144,8 @@ primary key(coll_ID), Foreign key(Dept_ID), Foreign key(coll_ID));
 | 13 | BA  | Business analytics | 5 |
 | 14 | civil | civil engineering  | 5 |
 | 15 | product design | design specification | 5 |
+
+
 
 
 
