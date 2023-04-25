@@ -185,8 +185,17 @@ primary key(coll_ID), Foreign key(Dept_ID), Foreign key(coll_ID));
 | 2140 | Aakriti | Aakriti@gmail.com  | Bhopal | 02-10-1949 | 22 | 9335787654 |
 | 2150 | Riya| Riya@gmail.com | Bihar | 03-11-1950 | 21 | 9343787654 |
 
- **Library(Lib_ID, Lib_name, Book_ID, Book_name, Author_name, Issuing_Date, Return_Date, Rack_number)**
-| Stu_ID       | Stu_name     | Stu_email | Stu_address | Stu_DOB | Stu_age |Stu_phnu | 
+ **Library(, , , , , , , )**
+| Lib_ID      | Lib_name     | Book_ID | Book_name | Author_name | Issuing_Date |Return_Date | Rack_number|
+| -------------------- | ------------------- | --------------- | ------------------- | -------------------- | ----------| ---------| ------------|
+| 2110  | Swati  | swati@gmail.com | Bihar | 29-05-1945 | 23 | 9353787654 |
+| 2120  | Anshu | Anshu@gmail.com | Bihar | 02-08-1946 | 22 | 9353787645 |
+| 2130 | Tejasvi | TJ@gmail.com | Bangalore | 01-09-1948 | 21 | 9353786754 |
+| 2140 | Aakriti | Aakriti@gmail.com  | Bhopal | 02-10-1949 | 22 | 9335787654 |
+| 2150 | Riya| Riya@gmail.com | Bihar | 03-11-1950 | 21 | 9343787654 |
+
+**Worker(, , , , , ,)**
+| worker_ID      | worker_name     | worker_email | Worker_address | Worker_Phnu | Worker_salary | Worker_DOB | 
 | -------------------- | ------------------- | --------------- | ------------------- | -------------------- | ----------| ---------|
 | 2110  | Swati  | swati@gmail.com | Bihar | 29-05-1945 | 23 | 9353787654 |
 | 2120  | Anshu | Anshu@gmail.com | Bihar | 02-08-1946 | 22 | 9353787645 |
@@ -194,27 +203,18 @@ primary key(coll_ID), Foreign key(Dept_ID), Foreign key(coll_ID));
 | 2140 | Aakriti | Aakriti@gmail.com  | Bhopal | 02-10-1949 | 22 | 9335787654 |
 | 2150 | Riya| Riya@gmail.com | Bihar | 03-11-1950 | 21 | 9343787654 |
 
-**Worker(worker_ID, worker_name, worker_email, Worker_address, Worker_Phnu, Worker_salary,Worker_DOB)**
-| Stu_ID       | Stu_name     | Stu_email | Stu_address | Stu_DOB | Stu_age |Stu_phnu | 
-| -------------------- | ------------------- | --------------- | ------------------- | -------------------- | ----------| ---------|
+**Cantene(, , ,)**
+| Cant_ID     | Cant_name    | Menu_name(Veg_menu,Nonveg_menu) | 
+| -------------------- | ------------------- | ----------------------------- |
 | 2110  | Swati  | swati@gmail.com | Bihar | 29-05-1945 | 23 | 9353787654 |
 | 2120  | Anshu | Anshu@gmail.com | Bihar | 02-08-1946 | 22 | 9353787645 |
 | 2130 | Tejasvi | TJ@gmail.com | Bangalore | 01-09-1948 | 21 | 9353786754 |
 | 2140 | Aakriti | Aakriti@gmail.com  | Bhopal | 02-10-1949 | 22 | 9335787654 |
 | 2150 | Riya| Riya@gmail.com | Bihar | 03-11-1950 | 21 | 9343787654 |
 
-**Cantene(Cant_ID, Cant_name, Menu_name(Veg_menu,Nonveg_menu),)**
-| Stu_ID       | Stu_name     | Stu_email | Stu_address | Stu_DOB | Stu_age |Stu_phnu | 
-| -------------------- | ------------------- | --------------- | ------------------- | -------------------- | ----------| ---------|
-| 2110  | Swati  | swati@gmail.com | Bihar | 29-05-1945 | 23 | 9353787654 |
-| 2120  | Anshu | Anshu@gmail.com | Bihar | 02-08-1946 | 22 | 9353787645 |
-| 2130 | Tejasvi | TJ@gmail.com | Bangalore | 01-09-1948 | 21 | 9353786754 |
-| 2140 | Aakriti | Aakriti@gmail.com  | Bhopal | 02-10-1949 | 22 | 9335787654 |
-| 2150 | Riya| Riya@gmail.com | Bihar | 03-11-1950 | 21 | 9343787654 |
-
-**Campus Store(Store_ID, Store_name,Item_list,Item_name, Item_Price)**
-| Stu_ID       | Stu_name     | Stu_email | Stu_address | Stu_DOB | Stu_age |Stu_phnu | 
-| -------------------- | ------------------- | --------------- | ------------------- | -------------------- | ----------| ---------|
+**Campus Store(, ,,, )**
+| Store_ID      | Store_name     | Item_list | Item_name | Item_Price | 
+| -------------------- | ------------------- | --------------- | ------------------- |
 | 2110  | Swati  | swati@gmail.com | Bihar | 29-05-1945 | 23 | 9353787654 |
 | 2120  | Anshu | Anshu@gmail.com | Bihar | 02-08-1946 | 22 | 9353787645 |
 | 2130 | Tejasvi | TJ@gmail.com | Bangalore | 01-09-1948 | 21 | 9353786754 |
