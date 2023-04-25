@@ -111,6 +111,8 @@ Item_name varchar(150) not null,
 Item_Price int not null,
 primary key(coll_ID), Foreign key(Dept_ID), Foreign key(coll_ID));
 
+######## **Table
+
 
 
 
