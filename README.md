@@ -122,6 +122,16 @@ primary key(coll_ID), Foreign key(Dept_ID), Foreign key(coll_ID));
 | 104 | MIT | A | Pune |
 | 105 | MITID | A | Pune |
 
+** Department_Table**
+
+| Dept_ID       | Dept_name     | 
+| ------------- | ------------- |
+| 1010  | Engineering  | 
+| 1020  | BBA               | 
+| 103 | MBA  | 
+| 104 | Diploma | 
+| 105 | Design | 
+
 
 
 
