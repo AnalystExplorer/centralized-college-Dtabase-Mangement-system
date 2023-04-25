@@ -118,7 +118,7 @@ primary key(coll_ID), Foreign key(Dept_ID), Foreign key(coll_ID));
 **College_Table**
 
 | coll_ID       | Coll_name     | coll_Grade | Coll_location |
-| ------------- | ------------- | ---------- | ------------- |
+| ------------- | ------------- | ---------- | -------------- |
 | 101  | Christ university  | B | Bangalore |
 | 102  | VTU                | B | Bangalore |
 | 103 | SJCIT  | B | Bangalore |
