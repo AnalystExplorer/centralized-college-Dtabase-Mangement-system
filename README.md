@@ -196,11 +196,11 @@ primary key(coll_ID), Foreign key(Dept_ID), Foreign key(coll_ID));
 **Worker**
 | worker_ID      | worker_name     | worker_email | Worker_address | Worker_Phnu | Worker_salary | Worker_DOB | 
 | -------------------- | ------------------- | --------------- | ------------------- | -------------------- | ----------| ---------|
-| 211550  | Rahul  | rahul@gmail.com | pune|7854693215 | 29-05-1945 | 23 | 
-| 233120  | manish | manish@gmail.com | lavasa | 6987452134 |02-08-1946 | 22 | 
-| 214530 | sonu | sonu@gmail.com | pirangut| 7894125864 |01-09-1948 | 21 | 
-| 218840 | Rashmi | rashmi@gmail.com  | lavasa | 9999745699 |02-10-1949 | 22 | 
-| 215990 | rekha| rekha@gmail.com | pune | 8795641829 |03-11-1950 | 21 | 
+| 211550  | Rahul  | rahul@gmail.com | pune|7854693215 | 50000 | 27-05-1945 |  
+| 233120  | manish | manish@gmail.com | lavasa | 6987452134 | 45000 |07-08-1946 | 
+| 214530 | sonu | sonu@gmail.com | pirangut| 7894125864 | 50000 |11-09-1948 | 
+| 218840 | Rashmi | rashmi@gmail.com  | lavasa | 9999745699 | 55000 |12-10-1949 |  
+| 215990 | rekha| rekha@gmail.com | pune | 8795641829 | 50000 |23-11-1950 |
 
 **Cantene**
 | Cant_ID     | Cant_name    | Menu_name(Veg_menu,Nonveg_menu) | 
