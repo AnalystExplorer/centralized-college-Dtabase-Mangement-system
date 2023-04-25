@@ -138,7 +138,7 @@ primary key(coll_ID), Foreign key(Dept_ID), Foreign key(coll_ID));
 **Course_Table**
 
 | Course_ID       | Course_name     | Course_desc | Course_credit |
-| ------------- | ------------- | ----------- | ------------- |
+| ------------- | ------------- | ----------- | ------------ |
 | 11  | IT  | computer science engineering | 5 |
 | 12  | Finace                | Finance analytics | 5 |
 | 13 | BA  | Business analytics | 5 |
