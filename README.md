@@ -127,13 +127,13 @@ primary key(coll_ID), Foreign key(Dept_ID), Foreign key(coll_ID));
 
 ** Department_Table**
 
-| Dept_ID       | Dept_name     | 
-| ------------- | ------------- |
-| 1010  | Engineering  | 
-| 1020  | BBA               | 
-| 1030 | MBA  | 
-| 1040 | Diploma | 
-| 1050 | Design | 
+| Dept_ID       | Dept_name     | compltn_time |
+| ------------- | ------------- | ------------ |
+| 1010  | Engineering  |  4 yrs(8 sem)|
+| 1020  | BBA               | 3 yrs(6 sem) |
+| 1030 | MBA  |   2 yrs(6 trisem) |
+| 1040 | Diploma | 2 yrs(4 sem) |
+| 1050 | Design | 4 yrs(8 sem) |
 
 ** Course_Table **
 
@@ -144,6 +144,20 @@ primary key(coll_ID), Foreign key(Dept_ID), Foreign key(coll_ID));
 | 13 | BA  | Business analytics | 5 |
 | 14 | civil | civil engineering  | 5 |
 | 15 | product design | design specification | 5 |
+
+**Assignment_table(Assignment_ID, Assignment_name, Assignment_desc, Assignment_deadline, no_of_assignment)**
+| Assignment_ID       | Assignment_name     | Assignment_desc | Assignment_deadline | no_of_assignment |
+| ------------- | ------------- | ---------- | ------------- | -------------------- | ---------------- |
+| 110  | Python  | Basics to pro | 7 days | 5 |
+| 120  | Sql                | Basics to pro | 7 days | 5|
+| 130 | Case study | critical thinking | 10 days | 1 |
+| 140 | communication | Basics to pro  | 3 days | 5 |
+| 150 | presentation | Basics to pro | 7 days |10 |
+
+
+
+5. Student(Stu_ID,Stu_name, Stu_email, Stu_address, Stu_DOB, Stu_age, Stu_phnu)
+6. Attendance(Auth_ID, Auth_pwd, Attendance_percent)
 
 
 
