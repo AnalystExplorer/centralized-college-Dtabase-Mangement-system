@@ -213,7 +213,7 @@ primary key(coll_ID), Foreign key(Dept_ID), Foreign key(coll_ID));
 
 **Campus Store**
 | Store_ID      | Store_name     | Item_list | Item_name | Item_Price | 
-| -------------------- | ------------------- | --------------- | ------------------ | ---------------|
+| -------------------- | ------------------- | -------------- | ------------------ | ---------------|
 | 1234 | cen_trinity  |  1 | classmate notebook |175 | 
 | 5678  | Mba_Trinity | 2 | uniball pen | 80 |
 | 9012 | cafe coffe day | 3 | cappechino | 55 |
