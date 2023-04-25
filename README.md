@@ -204,7 +204,7 @@ primary key(coll_ID), Foreign key(Dept_ID), Foreign key(coll_ID));
 
 **Cantene**
 | Cant_ID     | Cant_name    | Menu_name(Veg_menu,Nonveg_menu) | 
-| -------------------- | ------------------- | ----------------------------- |
+| -------------------- | ------------------- | ---------------------------- |
 | 21210  | lutos  | Veg_menu |
 | 23120  | cafe valley | Veg_menu,Nonveg_menu |
 | 23130 | conserto | Veg_menu | 
