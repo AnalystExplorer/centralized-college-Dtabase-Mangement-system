@@ -205,11 +205,11 @@ primary key(coll_ID), Foreign key(Dept_ID), Foreign key(coll_ID));
 **Cantene**
 | Cant_ID     | Cant_name    | Menu_name(Veg_menu,Nonveg_menu) | 
 | -------------------- | ------------------- | ----------------------------- |
-| 2110  | Swati  | swati@gmail.com | Bihar | 29-05-1945 | 23 | 9353787654 |
-| 2120  | Anshu | Anshu@gmail.com | Bihar | 02-08-1946 | 22 | 9353787645 |
-| 2130 | Tejasvi | TJ@gmail.com | Bangalore | 01-09-1948 | 21 | 9353786754 |
-| 2140 | Aakriti | Aakriti@gmail.com  | Bhopal | 02-10-1949 | 22 | 9335787654 |
-| 2150 | Riya| Riya@gmail.com | Bihar | 03-11-1950 | 21 | 9343787654 |
+| 21210  | lutos  | Veg_menu |
+| 23120  | cafe valley | Veg_menu,Nonveg_menu |
+| 23130 | conserto | Veg_menu | 
+| 24140 | sreamimng mugs| Veg_menu,Nonveg_menu  | 
+| 22150 | cafrtaria| Veg_menu,Nonveg_menu | 
 
 **Campus Store**
 | Store_ID      | Store_name     | Item_list | Item_name | Item_Price | 
