@@ -214,9 +214,9 @@ primary key(coll_ID), Foreign key(Dept_ID), Foreign key(coll_ID));
 **Campus Store**
 | Store_ID      | Store_name     | Item_list | Item_name | Item_Price | 
 | -------------------- | ------------------- | --------------- | ------------------- | ---------------|
-| 1234 | cen_trinity  |  classmet notebook | classmet notebook |75 |
-| 5678  | Mba_Trinity | Anshu@gmail.com | Bihar | 02-08-1946 |
-| 9012 | cafe coffe day | TJ@gmail.com | Bangalore | 01-09-1948 |
+| 1234 | cen_trinity  |  1 | classmate notebook |175 |
+| 5678  | Mba_Trinity | 2 | uniball pen | 80 |
+| 9012 | cafe coffe day | 3 | cappechino | 55 |
 
 
 
