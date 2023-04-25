@@ -125,7 +125,7 @@ primary key(coll_ID), Foreign key(Dept_ID), Foreign key(coll_ID));
 | 104 | MIT | A | Pune |
 | 105 | MITID | A | Pune |
 
-** Department_Table**
+**Department_Table**
 
 | Dept_ID       | Dept_name     | compltn_time |
 | ------------- | ------------- | ------------ |
@@ -135,7 +135,7 @@ primary key(coll_ID), Foreign key(Dept_ID), Foreign key(coll_ID));
 | 1040 | Diploma | 2 yrs(4 sem) |
 | 1050 | Design | 4 yrs(8 sem) |
 
-** Course_Table **
+**Course_Table**
 
 | Course_ID       | Course_name     | Course_desc | Course_credit |
 | ------------- | ------------- | ---------- | ------------- |
@@ -154,6 +154,28 @@ primary key(coll_ID), Foreign key(Dept_ID), Foreign key(coll_ID));
 | 130 | Case study | critical thinking | 10 days | 1 |
 | 140 | communication | Basics to pro  | 3 days | 5 |
 | 150 | presentation | Basics to pro | 7 days |10 |
+
+**Student_table**
+
+| Stu_ID       | Stu_name     | Stu_email | Stu_address | Stu_DOB | Stu_age |Stu_phnu | 
+| -------------------- | ------------------- | --------------- | ------------------- | -------------------- | ----------| ---------|
+| 2110  | Swati  | swati@gmail.com | Bihar | 29-05-1945 |
+| 2120  | Anshu | Anshu@gmail.com | Bihar | 02-08-1946 |
+| 2130 | Tejasvi | TJ@gmail.com | Bangalore | 01-09-1948 |
+| 2140 | Aakriti | Aakriti@gmail.com  | Bhopal | 02-10-1949 |
+| 2150 | Riya| Riya@gmail.com | Bihar |10 | 03-11-1950 |
+
+**Attendance_Table(Auth_ID, Auth_pwd, Attendance_percent)
+
+
+| Auth_ID      | Auth_pwd     | Attendance_percent |
+| ------------- | ------------- | ------------ |
+| 1010  | user  |  90% |
+| 1020  | user              | 95%  |
+| 1030 | user  |   85% |
+| 1040 | user | 70% |
+| 1050 | user| 92% |
+
 
 
 
