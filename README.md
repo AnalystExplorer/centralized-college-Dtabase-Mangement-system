@@ -22,6 +22,22 @@ coll_grade varchar(10) not null,
 coll_location varchar(50) not null,
 primary key(coll_ID));
 
+Create table Department(
+Dept_ID int not null,
+Dept_name varchar(250)not null,
+primary key(Dept_ID));
+
+Create table Course(
+Course_ID int not null,
+Course_name varchar(250)not null,
+Course_desc varchar(250)not null,
+Course_credit varchar(250)not null,
+primary key(Dept_ID), foreign key(Dept_ID));
+
+
+
+
+
 
  
 
