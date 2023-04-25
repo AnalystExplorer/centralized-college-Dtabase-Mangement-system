@@ -111,8 +111,8 @@ Item_name varchar(150) not null,
 Item_Price int not null,
 primary key(coll_ID), Foreign key(Dept_ID), Foreign key(coll_ID));
 
-##### **Table **
-College(Coll_ID, Coll_name, Coll_grade, Coll_location)
+##### **Inserting value into Table **
+** College_Table **
 
 | coll_ID       | Coll_name     | coll_Grade | Coll_location |
 | ------------- | ------------- | ---------- | ------------- |
