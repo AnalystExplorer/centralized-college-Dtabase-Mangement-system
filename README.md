@@ -115,7 +115,7 @@ Item_Price int not null,
 primary key(coll_ID), Foreign key(Dept_ID), Foreign key(coll_ID));
 
 ##### **Inserting value into Table **
-** College_Table **
+**College_Table**
 
 | coll_ID       | Coll_name     | coll_Grade | Coll_location |
 | ------------- | ------------- | ---------- | ------------- |
@@ -165,7 +165,7 @@ primary key(coll_ID), Foreign key(Dept_ID), Foreign key(coll_ID));
 | 2140 | Aakriti | Aakriti@gmail.com  | Bhopal | 02-10-1949 | 22 | 9335787654 |
 | 2150 | Riya| Riya@gmail.com | Bihar | 03-11-1950 | 21 | 9343787654 |
 
-**Attendance_Table(Auth_ID, Auth_pwd, Attendance_percent)
+**Attendance_Table**
 
 
 | Auth_ID      | Auth_pwd     | Attendance_percent |
