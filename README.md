@@ -84,26 +84,32 @@ Rack_number int not null,
 primary key(Lib_ID),
 Foreign key(coll_ID),foreign key(Dept_ID), Foreign key(Stud_ID));
 
-Create table College(
-Coll_ID int not null,
-coll_name varchar(250)not null,
-coll_grade varchar(10) not null,
-coll_location varchar(50) not null,
-primary key(coll_ID));
+Create table Worker(
+worker_ID int not null,
+worker_name varchar(250)not null,
+worker_email varchar(10) not null,
+Worker_address varchar(50) not null,
+Worker_Phnu int not null,
+Worker_salary int not null,
+Worker_DOB Date,
+primary key(worker_ID), 
+Foreign key(coll_ID));
 
-Create table College(
-Coll_ID int not null,
-coll_name varchar(250)not null,
-coll_grade varchar(10) not null,
-coll_location varchar(50) not null,
-primary key(coll_ID));
+Create table Cantene(
+Cant_ID int not null,
+Cant_name varchar(250)not null,
+Menu_name varchar(10) not null,
+Veg_menu varchar(50) not null,
+Nonveg_menu varchar(50) not null,
+primary key(coll_ID), );
 
-Create table College(
-Coll_ID int not null,
-coll_name varchar(250)not null,
-coll_grade varchar(10) not null,
-coll_location varchar(50) not null,
-primary key(coll_ID));
+Create table Campus Store(
+Store_ID int not null,
+Store_name varchar(250)not null,
+Item_list varchar(250) not null,
+Item_name varchar(150) not null,
+Item_Price int not null,
+primary key(coll_ID), Foreign key(Dept_ID), Foreign key(coll_ID));
 
 
 
