@@ -181,7 +181,7 @@ primary key(coll_ID), Foreign key(Dept_ID), Foreign key(coll_ID));
 | -------------------- | ------------------- | --------------- | ------------------- | -------------------- | ----------| ---------| ------------|
 | 21413 | Anshul saxena | 93537876855 | Anshulsaxena@gmail.com | MP | 10,00,000 |02-08-2006 | HOS |
 | 21414| Danesh Hussain | 6523456892| DaneshHussain@gmail.com | Bangalore | 11,00,000 | 01-09-2007 | HOS  |
-| 21415 | Jerin Jose | 2354896524 | JerinJose@gmail.com  | Bangalore | 12,00,000 | 02-10-2012 | facluty |
+| 21415 | Jerin Jose | 2354896524 | JerinJose@gmail.com  | Bangalore | 12,00,000 | 02-10-2012 | faculty |
 | 21416| Beky Thomas | 9845762143| BekyThomas@gmail.com | pune | 15,00,000 | 03-11-2018 | HOD  |
 
  **Library**
