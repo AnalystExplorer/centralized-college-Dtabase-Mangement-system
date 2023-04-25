@@ -159,11 +159,11 @@ primary key(coll_ID), Foreign key(Dept_ID), Foreign key(coll_ID));
 
 | Stu_ID       | Stu_name     | Stu_email | Stu_address | Stu_DOB | Stu_age |Stu_phnu | 
 | -------------------- | ------------------- | --------------- | ------------------- | -------------------- | ----------| ---------|
-| 2110  | Swati  | swati@gmail.com | Bihar | 29-05-1945 |
-| 2120  | Anshu | Anshu@gmail.com | Bihar | 02-08-1946 |
-| 2130 | Tejasvi | TJ@gmail.com | Bangalore | 01-09-1948 |
-| 2140 | Aakriti | Aakriti@gmail.com  | Bhopal | 02-10-1949 |
-| 2150 | Riya| Riya@gmail.com | Bihar |10 | 03-11-1950 |
+| 2110  | Swati  | swati@gmail.com | Bihar | 29-05-1945 | 23 | 9353787654 |
+| 2120  | Anshu | Anshu@gmail.com | Bihar | 02-08-1946 | 22 | 9353787645 |
+| 2130 | Tejasvi | TJ@gmail.com | Bangalore | 01-09-1948 | 21 | 9353786754 |
+| 2140 | Aakriti | Aakriti@gmail.com  | Bhopal | 02-10-1949 | 22 | 9335787654 |
+| 2150 | Riya| Riya@gmail.com | Bihar | 03-11-1950 | 21 | 9343787654 |
 
 **Attendance_Table(Auth_ID, Auth_pwd, Attendance_percent)
 
