@@ -132,7 +132,7 @@ primary key(coll_ID), Foreign key(Dept_ID), Foreign key(coll_ID));
 | 1040 | Diploma | 
 | 1050 | Design | 
 
-** Course(Course_ID,Course_name, Course_desc, Course_credit) **
+** Course_Table **
 
 | Course_ID       | Course_name     | Course_desc | Course_credit |
 | ------------- | ------------- | ---------- | ------------- |
