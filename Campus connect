@@ -1,0 +1,87 @@
+USE mbaba;
+SELECT * FROM mbaba.salesdetails;
+select OrderID from salesdetails where CustomerID = 'VT-21700';
+select DISTINCT OrderID from salesdetails where CustomerID = 'VT-21700';
+ -- get the customer id for the orders that is having quantity greater than 5
+select DISTINCT CustomerID from salesdetails where Quantity > 5;
+select * from salesdetails where CountryRegion = 'China'; 
+select DISTINCT CustomerID from salesdetails where CountryRegion='china' and CountryRegion='India';
+select DISTINCT CustomerID from salesdetails where CountryRegion='china' or CountryRegion='India';
+select DISTINCT CustomerID from salesdetails where CountryRegion IN('china','India');
+
+-- ORDER BY ,- TO SORT ASSENDING/DESCENDING ORDER
+-- SELECT CUSTOMERID and OrderId and qty, sort by qty in asc order
+
+SELECT CustomerID, OrderId, Quantity from salesdetails order by Quantity asc;
+SELECT CustomerID, OrderId, Quantity from salesdetails order by Quantity desc;
+SELECT CustomerID, OrderId, Quantity from salesdetails WHERE CountryRegion ='India' order by Quantity desc;
+
+-- LIMIT
+SELECT CustomerID, OrderId, Quantity from salesdetails WHERE CountryRegion ='India' order by Quantity desc LIMIT 5;
+-- SELECT UNIQUE CUSTOMERS WHO HAVE ORDERED ART ITEMS
+select DISTINCT CustomerID, CustomerName from salesdetails where SubCategory='Art';
+-- SELECT TOP 5 CUSTOMERS WHO HAVE ORDERS PAPER FOR THE MOST
+select DISTINCT CustomerID, CustomerName from salesdetails where SubCategory='Paper' Order by Quantity Limit 5;
+-- List the top 10 orders for home office segment products from India and Japan
+select DISTINCT CustomerID, CustomerName, Quantity from salesdetails where Segment='Home Office' and CountryRegion in ( 'India', 'Japan')  Order by Quantity desc Limit 10 ;
+
+-- Get the orders from the region "North Asia ", order the orders based on qty desc.
+select DISTINCT CustomerID, CustomerName, Quantity from salesdetails where Region='North Asia' Order by Quantity desc;
+-- List the unique customers who have placed the orders in copies and paper
+select DISTINCT CustomerID, CustomerName, OrderID from salesdetails where SubCategory IN('Paper', 'copiers');
+-- List the subcategories in Technology
+select DISTINCT Category, SubCategory from salesdetails where Category='Technology';
+
+-- List the cooperate segment categories
+select DISTINCT Segment, Category from salesdetails where Segment='Corporate';
+-- List the product names that falls under phones.
+select DISTINCT SubCategory, ProductName from salesdetails where SubCategory='Phones';
+
+-- List the categories that have sold in India.
+select DISTINCT Category,CountryRegion from salesdetails where CountryRegion='India';
+-- find max and min for profit for the category office supplies
+Select min(Profit),max(Profit) from salesdetails where Category = 'Office Supplies';
+-- count()
+SELECT Category, count(*) from salesdetails where Category = 'Office Supplies';
+-- avg() | sum()
+
+SELECT AVG(Profit), SUM(Profit) from salesdetails where Category = 'Office Supplies';
+
+
+-- Group By | - clause
+Select Category, Count(*) from salesdetails group by Category;
+Select Category, Count(*) as count from salesdetails group by Category;
+
+-- Order the category based on the count of orders
+Select Category, Count(OrderID) as count from salesdetails group by Category;
+-- Identify the region with maximum sales
+SELECT Region, sum(sales) as TotalSales from salesdetails group by Region order by TotalSales desc limit 1;
+-- Identify the product that had the maximum sales
+SELECT productID, productName, sum(sales) as TotalSales from salesdetails group by ProductID, ProductName order by TotalSales desc limit 1;
+
+-- Which city have orderd the most
+SELECT City , sum(sales) as totalsales from salesdetails group by City order by totalsales desc limit 1;
+-- which country have the maximum number of cities
+SELECT CountryRegion, count(city) as citycount from salesdetails group by countryRegion order by citycount desc limit 1;
+-- which country have the maximum number of cities based on orders
+SELECT CountryRegion, count(Distinct city) as citycount from salesdetails group by countryRegion order by citycount desc;
+-- which is the top prefered shipmode/ shipment mode
+SELECT ShipMode, count(*) as count from salesdetails group by ShipMode order by count desc;
+-- Which country have the maximum orders that have been shiped in the sameday
+Select CountryRegion,ShipMode, count(ShipMode) as count from salesdetails  WHERE ShipMode = 'Same Day' group by countryRegion order by count desc;
+
+-- which segment of products are sold on the sameday(show the max & min)
+Select ProductID,ProductName, count(ProductID) as count from salesdetails WHERE Shipmode= 'Same Day' group by ProductID,ProductName, Segment order by count desc;
+
+-- in art subcategory, which is the commonly prefered shipment mode
+SELECT ShipMode, SubCategory, count(SubCategory) as count from salesdetails WHERE SubCategory= 'Art' group by ShipMode, SubCategory order by count desc;
+-- in Australia, which is the most prefered shipment mode
+SELECT shipMode, CountryRegion, count(CountryRegion) as count from salesdetails WHERE CountryRegion= 'Australia' group by shipMode, CountryRegion order by count desc limit 1; 
+-- under office supplies, which country have ordered the most.
+SELECT Category, CountryRegion, count(Category) as max_count from salesdetails WHERE Category= 'Office Supplies'  group by Category, CountryRegion order by max_count desc limit 1;
+
+
+
+
+
+
